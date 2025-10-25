@@ -5,7 +5,7 @@ from itertools import cycle
 
 app=Flask(__name__)
 
-servers=['http://127.0.0.1:5001', 'http://127.0.0.1:5002','http://127.0.0.1:8000']
+servers=['https://load-balancer-yetq.onrender.com/', 'https://load-balancer-1-3rd4.onrender.com/','https://load-balancer-2.onrender.com/']
 server=cycle(servers)
 
 
